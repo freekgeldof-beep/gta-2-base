@@ -17,5 +17,8 @@
   "spawn": null,
   "policeStation": null,
   "requiredLandmarks": [],
-  "waterCollision": true
+  "waterCollision": true,
+  "pickups": {
+    "beerStreets": []
+  }
 }
