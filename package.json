@@ -1,0 +1,22 @@
+{
+  "name": "gta-2-base",
+  "version": "1.0.0",
+  "description": "Reusable Dutch city GTA2-style engine with OpenStreetMap importer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "start": "node server/index.js",
+    "test": "node --test test/*.test.js tests/*.test.js",
+    "import:city": "node scripts/import-city.mjs",
+    "validate:city": "node scripts/validate-city.mjs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^8.21.0",
+    "ws": "^8.21.3",
+    "vite": "^8.3.0"
+  }
+}

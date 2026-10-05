@@ -1,0 +1,21 @@
+{
+  "id": "template",
+  "name": "Jouw stad",
+  "areaCode": "NL",
+  "configured": false,
+  "dataPath": "data",
+  "seed": 7,
+  "generatedLots": false,
+  "boundaryScale": 1,
+  "club": {
+    "name": "Club",
+    "shirtLabel": "CLUBSHIRT",
+    "color": "#e53a42"
+  },
+  "bbox": null,
+  "boundary": [],
+  "spawn": null,
+  "policeStation": null,
+  "requiredLandmarks": [],
+  "waterCollision": true
+}
